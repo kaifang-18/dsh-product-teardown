@@ -1,0 +1,34 @@
+{
+  "name": "dsh-product-teardown",
+  "version": "0.1.0",
+  "description": "淘宝及天猫商品链接的只读采集与证据拆解",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "taobao",
+    "tmall",
+    "product-research"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.5 <0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaifang-18/dsh-product-teardown.git"
+  },
+  "homepage": "https://github.com/kaifang-18/dsh-product-teardown#readme",
+  "bugs": "https://github.com/kaifang-18/dsh-product-teardown/issues",
+  "files": [
+    "cordis.patch.yml",
+    "skills"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+- insert:
+    - id: skill-filesystem-product-teardown
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: product-teardown-local
+        includeDefaultRoots: false
+        customSkillDirs:
+          - !!js process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:path').dirname(process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-product-teardown/package.json')), 'skills')
+        watch: false
