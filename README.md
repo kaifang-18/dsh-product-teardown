@@ -26,7 +26,7 @@
 
 ### 方式一：DSH 界面（推荐）
 
-1. 克隆本仓库到本地（私有仓库需要先接受邀请）：
+1. 克隆本仓库到本地：
 
    ```sh
    git clone https://github.com/kaifang-18/dsh-product-teardown.git
@@ -123,13 +123,13 @@ python3 -m unittest discover -s tests -v
 
 测试覆盖 HTML 字段提取，以及从样例网页生成完整证据目录。
 
-## 协作与权限
+## 协作与分发
 
-本仓库为私有仓库。仓库所有者可以随时在 **Settings → Collaborators** 移除协作者：
+本仓库为公开仓库，任何人都可以直接 clone、下载 ZIP 或按上面的方式安装，不需要邀请。
 
-- 移除后对方立即失去读写权限；
-- 对方基于该私有仓库创建的 fork 会被 GitHub 一并删除；
-- 但对方已经 clone 到本地的副本无法远程收回，已安装的插件副本也不会自动停用。
+- Fork 和下载后的副本由使用者自行保管，不受本仓库控制；
+- 欢迎通过 Issue 或 Pull Request 反馈问题、提交改进；
+- 维护者保留合并、发布和撤回版本的权利。
 
 ## License
 

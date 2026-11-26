@@ -2,7 +2,6 @@
   "name": "dsh-product-teardown",
   "version": "0.1.0",
   "description": "淘宝及天猫商品链接的只读采集与证据拆解",
-  "private": true,
   "license": "MIT",
   "keywords": [
     "dsh",
